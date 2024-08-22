@@ -2,7 +2,10 @@
 
 source "https://rubygems.org"
 
+gem 'tzinfo'
+
 gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1"
+gem 'tzinfo-data'
 
 group :test do
   gem "html-proofer", "~> 5.0"
